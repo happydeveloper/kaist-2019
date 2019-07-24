@@ -10,11 +10,66 @@
             </style>
     </head>
     <body>
-        <form action="https://www.google.co.kr/search?as_sitesearch=opentutorials.org">
-            <input type="text" name="q" id="">
-            <input type="submit" value="검색">
-        </form>
-        <h1>box model</h1>
-       
+        <h1>javascript</h1>
+        <input type="button" value="night" onclick="alert(this.value)">
+        <input type="button" value="day"   onclick="alert(this.value)">
+       <script>
+       Math.random();
+       console.log(Math.random());
+       </script>
+
+       <style>
+       .table {
+           display:table; 
+           margin:0 auto;
+       }
+
+       ol{
+           margin-top: 0px;
+           margin-bottom: 0px;
+       }
+       ol li {
+          display: inline;
+       }
+
+       ul#horizontal-list{
+	    list-style: none;
+	    padding-top: 1px;
+        margin-top: 1px;
+       }
+
+      
+       ul#horizontal-list li {
+           display: block;
+           width: 200px;
+       }
+       </style>
+
+      <div id="menu-outer">
+          <div class="table">
+              <ol>
+                  <li>나라</li>
+                  <li>말쌈</li>
+                  <li>한글</li>
+                  <li>창제</li>
+              </ol>
+              <ol>
+                    <li>  </li>
+                    <li> 
+                        <ul id="horizontal-list">
+                            <li>훈</li>
+                            <li>민</li>
+                            <li>정</li>
+                            <li>음</li>
+                      </ul> 
+                    </li>
+                    <li>  </li>
+                    <li>  </li>
+                </ol>
+
+              
+              
+          </div>
+      </div>
     </body>
 </html>
